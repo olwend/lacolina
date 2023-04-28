@@ -1,0 +1,137 @@
+$font-title-style: italic bold 2em 'Alegreya Sans', sans-serif;
+// $hbase-colour: #f2f2f2;
+$font-content: italic 1.2em 'Alegreya Sans', sans-serif;
+$font-h2-choice: italic 1.2em 'Alegreya Sans', sans-serif;
+$text-body: #000;
+// $base_Background: url(./mountainview.jpg) ;
+// $base_feature_colour: #87CEFA;
+
+a {
+	font: $font-content;
+	color: $hbase-colour;
+	margin-bottom: 10px;
+}
+
+body {
+	color: $hbase-colour;
+	font: $font-content;
+	background: $base_feature_colour $base_Background;
+	background-size: 2000px 3000px;
+	width:  auto;
+	overflow:  scroll;
+	padding: 10px;
+}
+
+h1 {
+	font: $font-title-style;
+	padding: 10px;
+	animation: slidein 2s linear 1s 2 alternate;
+
+	@keyframes slidein {
+		from {
+			margin-left: 75%;
+			width: 300%;
+		}
+
+		to {
+			margin-left: 0%;
+			width: 150%;
+		}
+	}
+
+}
+
+h2 {
+	font: $font-h2-choice;
+}
+
+ul {
+	padding: 10px;
+}
+
+table {
+	text-shadow: 0.5px 0.5px 0.5px black;
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+caption {
+	font: $font-h2-choice;
+	background-color:$base_feature_colour;
+	padding: 10px;
+}
+
+th {
+	font-size: 0.8em;
+}
+
+thead {
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+td {
+	padding: 5px;
+	border:  2px dotted black;
+}
+
+address {
+	font-size: 0.8em;
+}
+
+.snow {
+		@keyframes slidein {
+	  from {
+	    margin-left: 75%;
+	    width: 300%;
+	  }
+
+	  to {
+	    margin-left: 0%;
+	    width: 150%;
+	  }
+	}
+	animation: slidein 4s linear 1s 1 alternate;
+	padding: 10px;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	opacity: 0.2;
+	float: left;
+}
+
+.blog-post {
+	background-color: gray;
+	border: 2px dotted black;
+	border-radius: 10px;
+	width: 20%;
+	float: right;
+	margin-right: 5%;
+	height:  auto;
+	padding: 10px;
+	text-align:  center;
+}
+
+#updateDetails {
+	font: $font-h2-choice;
+	color: #4B0082;
+	padding: 10px;
+}
+
+.contact-details {
+	padding: 10px;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#favDialog {
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	background-color: #b5cece;
+}

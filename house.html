@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./house.css" media="screen"/>
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Open+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LaColina</title>
+</head>
+
+<body>
+	<div class="container">
+<!-- intro text  -->
+	<!-- </div>
+	<div class="plan-text"> -->
+		<h1>La Colina ...<br>
+			 Plan your trip to Camp de Mar here  ............<br>
+			 Which season suits you?
+		</h1>
+		 <!-- Illustration of dialog pop up with drop down  Add sky scanner API here if possible-->
+		 	<div class="item-choice">
+		 		<h2 class="weather"> View historic weather data by month</h2>
+				<dialog id="favMonth">
+						<form method="dialog">
+							<section>
+								<p><label for="favMonth">Month to query:</label>
+									<select id="favMonth">
+									<option></option>
+									<option>January</option>
+									<option>February</option>
+									<option>March</option>
+									<option>April</option>
+									<option>May</option>
+									<option>June</option>
+									<option>July</option>
+									<option>August</option>
+									<option>September</option>
+									<option>October</option>
+									<option>November</option>
+									<option>December</option>
+									</select></p>
+							</section>
+								<menu>
+									<button class="button" id="cancel" type="reset">Cancel</button>
+									<button class="button" type="submit">Confirm</button>
+								</menu>
+						</form>
+				</dialog>
+				<menu>
+					<button id="selectMonth">Submit month choice</button>
+				</menu>
+
+				<h2 class ="weather"> Select your preferred season</h2>
+<!-- ADD IN API HOOK UP SECTION HERE -->
+
+		<dialog id="favDialog">
+			 	<form method="dialog">
+			 		<section>
+	 					<p><label for="favSeason">Preferred Season:</label>
+	 						<select id="favSeason">
+	 						<option></option>
+	 						<option>Spring</option>
+	 						<option>Summer</option>
+	 						<option>Autumn</option>
+	 						<option>Winter</option>
+	 						</select></p>
+			 		</section>
+			 					<menu>
+			 						<button class="button" id="cancel" type="reset">Cancel</button>
+			 						<button class="button" type="submit">Confirm</button>
+			 					</menu>
+			 				</form>
+		</dialog>
+				<menu>
+					<button id="updateSeason">Submit season choice</button>
+				</menu>
+		 	</div>
+				<img class ="spring" src="photos/golf.jpg" alt="spring">
+				<img class ="summer" src="photos/cdem_beach.jpg" alt="summer">
+				<img class ="autumn" src="photos/seafromcap.jpg" alt="autumn">
+				<img class ="winter" src="photos/winterstorm.jpg" alt="winter">
+		<br>
+		<h2>Before your trip ... Get in touch and ask us questions to plan the Essentials....
+			<br>
+			<ul>
+				<li>Relishing long hot days on the beach and in the bar after a sea swim?</li>
+				<li>Like fresh coffee 6.30am, ready for hike nimble as a mountain goat?</li>
+				<li>Want to break your trip with a multi stage adventure? By cycle or Kayak?</li>
+				<li>Hike? Hell Yea I stomp from one hut to another nimble as a mountain goat</li>
+				<li>Need a varied resort with bus routes to accessible sites of interest?</li>
+				<li>Want to spend time taking in local the culture and history aswell as the outdoors?</li>
+				<li>Want to kick it with some banging nightlife?</li>
+			</ul>
+		</h2>
+
+		<div class="blog-post">
+		<h2> Mallorca diaries </h2>
+			<p>
+				Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.
+			</p>
+	</div>
+		<img class ="map" src="photos/majorca.jpg" alt="map">
+
+<!-- input form  -->
+		<div class="item-choice">
+		<h2>Enter details below for a callback...</h2>
+		<input class="contact-details" type="text" name="First name" placeholder="First name">
+		<input class="contact-details" type="text" name="Surname" placeholder="Surname">
+		<input class="contact-details" type="text" name="Telephone" placeholder="Telephone">
+		<input class="contact-details" type="email" name="Email" placeholder="Email">
+	</div>
+
+<!-- Map -->
+
+
+<!-- external link for info-->
+	<div class="item-choice">
+		<h2 class="choice"> Do your research ...Mallorca recommendations </h2>
+				<a href="https://www.tripadvisor.co.uk/Tourism-g187462-Majorca_Balearic_Islands-Vacations.html"> Trip Advisor </a>
+				<br/><br/>
+
+<!-- html reference item -->
+	<address>
+		6 La Colina<br>
+		Carrer Menhir,<br>
+		Camp de Mar.<br>
+		contact@lacolina.uk
+	</address>
+	<script src="./house.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	</div>
+</body>
+</html>

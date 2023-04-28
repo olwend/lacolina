@@ -1,0 +1,188 @@
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1em;
+	background: #b5cece;
+	background-size: 3000px 4000px;
+	width:  auto;
+	overflow:  scroll;
+}
+
+h1 {
+	font-size: 2em;
+	font-style:  italic;
+	font-weight: bold;
+	color: white;
+	}
+
+table {
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 0.5px 0.5px 0.5px black;
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+caption {
+	background-color:#87CEFA ;
+}
+
+th {
+	font-size: 0.8em;
+}
+
+thead {
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+td {
+	padding: 10px;
+	border:  2px solid black;
+}
+
+a {
+	color: #4B0082
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+address {
+	font-size: 0.8em;
+	float: left;
+}
+
+.button {
+	font-size: 1em;
+	font-style: italic;
+	color:  #4B0082;
+
+}
+
+.plan-text {
+	font-style: italic;
+	order:  1;
+}
+.blog-post {
+	background-color: gray;
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	width: 20%;
+	float:  right;
+	margin: 5%;
+	height:  auto;
+	text-align:  center;
+
+}
+.item-choice {
+	font-size: 1.2em;
+	font-style: italic;
+ 	color:  white;
+}
+.weather{
+	font-size: 1.2em;
+	color: #4B0082;
+}
+
+.contact-details {
+	font-style: italic;
+	padding: 10px;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.map {
+	/* padding: 10px; */
+	width: 8x00px;
+	height: 500px;
+	object-fit: cover;
+	/* opacity: 0.2; */
+	float: left;
+}
+.autumn {
+	padding: 10px;
+	width: 500px;
+	height: 400px;
+	object-fit: cover;
+	/* opacity: 0.2; */
+	float: left;
+}
+.spring {
+	padding: 10px;
+	width: 500px;
+	height: 400px;
+	object-fit: cover;
+	/* opacity: 0.2; */
+	float: left;
+}
+
+.summer {
+	padding: 10px;
+	width: 500px;
+	height: 400px;
+	object-fit: cover;
+	/* opacity: 0.2; */
+	float: right;
+}
+.winter {
+	padding: 10px;
+	width: 500px;
+	height: 400px;
+	object-fit: cover;
+	/* opacity: 0.2; */
+	float: right;
+}
+
+ #favDialog {
+		position: absolute;
+		top: 350px;
+		left: 100px;
+		background-color:#b5cece ;
+		font-size: 1.2em;
+	}
+
+#favSeason {
+	font-size: 1em;
+	font-style: italic;
+	color:  #4B0082;
+}
+#favMonth {
+	 position: absolute;
+	 top: 350px;
+	 left: 100px;
+	 background-color:#b5cece ;
+	 font-size: 1.2em;
+ }
+
+#selectMonth {
+	font-size: 1em;
+	font-style: italic;
+	color:  #4B0082;
+}
+
+#updateSeason {
+	font-size: 1em;
+	font-style: italic;
+	color:  #4B0082;
+}
+/*
+#myParty-ddown {
+	font-size: 1em;
+	font-style: italic;
+	color:  #4B0082;
+}
+
+#myParty {
+	font-size: 1em;
+	font-style: italic;
+	color:  #4B0082;
+} */
+
+img, embed,
+object, video {
+	max-width:  100%;
+}
